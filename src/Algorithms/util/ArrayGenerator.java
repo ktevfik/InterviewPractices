@@ -1,16 +1,17 @@
 package util;
 
+import Algorithms.util.Constants;
 import edu.princeton.cs.algs4.StdRandom;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-
 /**
  * Created by Rene Argento on 20/02/17.
  */
 public class ArrayGenerator {
+
 
     public static Map<Integer, Comparable[]> generateAllArrays(int numberOfExperiments, int initialArraySize, int multiplier) {
 
