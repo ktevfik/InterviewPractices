@@ -5,7 +5,7 @@
 
 package ElementsOfProgrammingInterviewsInJava.PrimitiveTypes;
 
-public class ComputingTheParityOfaWord01 {
+public class ComputeParity {
     public static void main(String[] args) {
         System.out.println(isParity(144));
         System.out.println(isParity(1));

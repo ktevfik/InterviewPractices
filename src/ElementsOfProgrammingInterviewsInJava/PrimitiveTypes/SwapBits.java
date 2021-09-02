@@ -5,7 +5,7 @@
 
 package ElementsOfProgrammingInterviewsInJava.PrimitiveTypes;
 
-public class SwapBits02 {
+public class SwapBits {
     public static void main(String[] args) {
         System.out.println(swapBits(73,6,1)); // Expected 11 01001001 -> 00001011
     }

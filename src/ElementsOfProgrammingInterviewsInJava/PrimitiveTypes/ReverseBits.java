@@ -4,8 +4,8 @@
  */
 
 package ElementsOfProgrammingInterviewsInJava.PrimitiveTypes;
-import static ElementsOfProgrammingInterviewsInJava.PrimitiveTypes.SwapBits02.swapBits;
-public class ReverseBits03 {
+import static ElementsOfProgrammingInterviewsInJava.PrimitiveTypes.SwapBits.swapBits;
+public class ReverseBits {
     public static void main(String[] args) {
         System.out.println(reverseBits((long)73));
         System.out.println(reverseBits((int) 73));

@@ -5,7 +5,7 @@
 
 package ElementsOfProgrammingInterviewsInJava.PrimitiveTypes;
 
-public class CountBits00 {
+public class CountBits {
     public static void main(String[] args) {
         System.out.println(countBits(255));
         System.out.println(countBits(63));
