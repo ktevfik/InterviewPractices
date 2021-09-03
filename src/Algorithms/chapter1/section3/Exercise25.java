@@ -158,6 +158,7 @@ public class Exercise25<Item> implements Iterable<Item> {
         Exercise25<String>.Node f = e.createNode("2");
         Exercise25<String>.Node t = e.createNode("7");
         e.insertAfter(f,t);
+        e.removeAfter(f);
 
         for (String s : e) {
             System.out.printf("%s ", s);
