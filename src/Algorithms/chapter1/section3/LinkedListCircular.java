@@ -25,7 +25,7 @@ public class LinkedListCircular<Item> implements Iterable<Item> {
         return size == 0;
     }
 
-    public int getSize() {
+    public int size() {
         return size;
     }
 
@@ -34,7 +34,7 @@ public class LinkedListCircular<Item> implements Iterable<Item> {
             return null;
         }
         if (index < 0 || index >= size) {
-            throw new IllegalArgumentException("Index must be between 0 and + " + (getSize() - 1));
+            throw new IllegalArgumentException("Index must be between 0 and + " + (size() - 1));
         }
 
         Node current = first;
@@ -66,11 +66,11 @@ public class LinkedListCircular<Item> implements Iterable<Item> {
             return;
         }
         if (index < 0 || index >= size) {
-            throw new IllegalArgumentException("Index must be between 0 and " + (getSize() - 1));
+            throw new IllegalArgumentException("Index must be between 0 and " + (size() - 1));
         }
 
         if (index == 0) {
-            if (getSize() > 1) {
+            if (size() > 1) {
                 first = first.next;
                 last.next = first;
             } else {
@@ -97,7 +97,7 @@ public class LinkedListCircular<Item> implements Iterable<Item> {
             return;
         }
         if (item.equals(first.item)) {
-            if (getSize() > 1) {
+            if (size() > 1) {
                 first = first.next;
                 last.next = first;
             } else {
